@@ -16,15 +16,22 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.conf.urls import url,include
-from userAdmin import views
+from userAdmin.views import UserViewSet,GroupViewSet,index
+from seckill.views import SeckillList,seckill_detail,seckill_time,expose_url,set_phone,killone
 from rest_framework import routers
 router=routers.DefaultRouter()
-router.register(r'users',views.UserViewSet)
-router.register(r'groups',views.GroupViewSet)
+router.register(r'users',UserViewSet)
+router.register(r'groups',GroupViewSet)
 
 urlpatterns = [
-    url(r'^$', views.index),
+    url(r'^$', index,name='welcome'),
     url(r'^admin/', admin.site.urls),
     url(r'^ctr/',include(router.urls)),
     url(r'^api-auth/',include('rest_framework.urls',namespace='rest-framework')),
+    url(r'^seckill/list$', SeckillList),
+    url(r'^seckill/(?P<pk>[0-9]+)/detail$', seckill_detail),
+    url(r'^seckill/time/now$', seckill_time),
+    url(r'^seckill/(?P<pk>[0-9]+)/url$', expose_url),
+    url(r'^seckill/setphone$', set_phone),
+    url(r'^seckill/kill$', killone),
 ]

@@ -7,6 +7,8 @@ from rest_framework import viewsets
 from .serializers import UserSerializer,GroupSerializers
 from django.http import HttpResponse
 
+
+
 def index(request):
     return HttpResponse(u"欢迎进入抢杀！")
 
