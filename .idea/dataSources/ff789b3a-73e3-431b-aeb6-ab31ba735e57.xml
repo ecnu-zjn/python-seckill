@@ -520,12 +520,17 @@ model</ColNames>
       <NotNull>1</NotNull>
       <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
     </column>
-    <index id="127" parent="29" name="idx_create_time">
+    <column id="127" parent="29" name="id">
+      <Position>5</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <index id="128" parent="29" name="idx_create_time">
       <ColNames>create_time</ColNames>
     </index>
-    <key id="128" parent="29" name="PRIMARY">
-      <ColNames>seckill_id
-user_phone</ColNames>
+    <key id="129" parent="29" name="PRIMARY">
+      <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
   </database-model>
