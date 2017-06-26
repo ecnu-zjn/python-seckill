@@ -39,7 +39,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seckill/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
+            <state relative-caret-position="2998">
               <caret line="168" column="51" lean-forward="true" selection-start-line="168" selection-start-column="51" selection-end-line="168" selection-end-column="51" />
               <folding>
                 <element signature="e#15#59#0" expanded="true" />
@@ -162,8 +162,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="606" />
-    <option name="y" value="206" />
+    <option name="x" value="-440" />
+    <option name="y" value="412" />
     <option name="width" value="1835" />
     <option name="height" value="989" />
   </component>
@@ -540,7 +540,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="606" y="206" width="1835" height="989" extended-state="0" />
+    <frame x="-440" y="412" width="1835" height="989" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1890971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -987,7 +987,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/seckill/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
+        <state relative-caret-position="2998">
           <caret line="168" column="51" lean-forward="true" selection-start-line="168" selection-start-column="51" selection-end-line="168" selection-end-column="51" />
           <folding>
             <element signature="e#15#59#0" expanded="true" />
